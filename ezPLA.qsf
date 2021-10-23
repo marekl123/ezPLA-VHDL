@@ -1,0 +1,75 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 09:12:35  October 08, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ezPLA_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY MAX7000S
+set_global_assignment -name DEVICE "EPM7032SLC44-10"
+set_global_assignment -name TOP_LEVEL_ENTITY ezPLA
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:12:35  OCTOBER 08, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name MAX7000_DEVICE_IO_STANDARD TTL
+set_global_assignment -name VHDL_FILE ezPLA.vhd
+set_location_assignment PIN_40 -to a12
+set_location_assignment PIN_9 -to a13
+set_location_assignment PIN_11 -to a14
+set_location_assignment PIN_17 -to a15
+set_location_assignment PIN_1 -to aec
+set_location_assignment PIN_41 -to ba
+set_location_assignment PIN_33 -to basic
+set_location_assignment PIN_24 -to cas
+set_location_assignment PIN_36 -to casram
+set_location_assignment PIN_20 -to charen
+set_location_assignment PIN_31 -to charom
+set_location_assignment PIN_5 -to exrom
+set_location_assignment PIN_6 -to game
+set_location_assignment PIN_29 -to grw
+set_location_assignment PIN_21 -to hiram
+set_location_assignment PIN_28 -to io
+set_location_assignment PIN_34 -to kernal
+set_location_assignment PIN_25 -to loram
+set_location_assignment PIN_26 -to romh
+set_location_assignment PIN_27 -to roml
+set_location_assignment PIN_4 -to rw
+set_location_assignment PIN_39 -to va12
+set_location_assignment PIN_44 -to va13
+set_location_assignment PIN_18 -to va14
+set_location_assignment PIN_37 -to xoe
